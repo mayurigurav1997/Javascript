@@ -8,3 +8,5 @@ function Circle(radius) {
 
 const circle = new Circle(2);
 console.log(circle)
+console.log(circle.radius)
+console.log(circle.draw)
