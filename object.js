@@ -28,7 +28,7 @@ for (let key in circle) {
 //Object.keys(circle) will return array of keys
 //array is iterable
 for (let key of Object.keys(circle)) {
-    console.log(key)
+    console.log(key + "*")
 }
 console.log(Object.keys(circle)) //return array of keys
 console.log(Object.entries(circle)) //return array of (key,value) arrays
