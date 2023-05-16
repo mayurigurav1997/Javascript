@@ -15,3 +15,20 @@ const circle = {
 };
 
 circle.draw()
+
+for (let key in circle) {
+    console.log(key, circle[key]);
+}
+// object is not iterable
+//TypeError: circle is not iterable
+// for (let key of circle) {
+//     console.log(key)
+// }
+
+//Object.keys(circle) will return array of keys
+//array is iterable
+for (let key of Object.keys(circle)) {
+    console.log(key)
+}
+console.log(Object.keys(circle)) //return array of keys
+console.log(Object.entries(circle)) //return array of (key,value) arrays
