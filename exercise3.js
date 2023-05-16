@@ -11,6 +11,8 @@ let post = {
 }
 console.log(post)
 
+
+//constructor function
 function Post(title, body, author) {
     this.title = title;
     this.body = body;
