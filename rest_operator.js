@@ -3,3 +3,5 @@ function sum(discount, ...args) {
     return total * (1 - discount)
 }
 console.log(sum(0.2, 4, 8, 6, 10))
+
+//... it will create the array
